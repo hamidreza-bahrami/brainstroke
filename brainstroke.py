@@ -2,8 +2,6 @@ import streamlit as st
 import pickle
 import re
 import numpy as np
-from nltk.corpus import stopwords
-from nltk.stem.porter import PorterStemmer
 from sklearn.linear_model import LogisticRegression
 import time
 
