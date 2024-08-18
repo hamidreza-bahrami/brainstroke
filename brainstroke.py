@@ -1,13 +1,10 @@
 import streamlit as st
 import pickle
 import re
-import cv2
 import numpy as np
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
 import time
 
 st.set_page_config(page_title='پیش بینی سکته مغزی - RoboAi', layout='centered', page_icon='🧠')
